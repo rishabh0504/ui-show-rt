@@ -1,0 +1,49 @@
+.ui-rt-button{
+    color:#FFFFFF;
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    transition: all .1s ease-in-out; 
+    font-family: var(--ui-show-rt);
+    display: flex;
+    box-shadow: 1px 1.5px 2px #d7d7d7;
+}
+
+.ui-rt-button:active {
+    transform: scale(0.9,0.9);
+}
+
+.ui-rt-button-success{
+    background: var(--success);
+}
+.ui-rt-button-warning{
+    background: var(--warning);
+}
+.ui-rt-button-danger{
+    background: var(--danger);
+}
+.ui-rt-button-info{
+    background: var(--info);
+}
+.ui-rt-button-default{
+    background: var(--default);
+    color:var(--dark-text);
+}
+.ui-rt-button-xs{
+    font-size: x-small;
+}
+.ui-rt-button-sm{
+    font-size: small;
+}
+.ui-rt-button-md{
+    font-size: medium;
+}
+.ui-rt-button-lg{
+    font-size: large;
+}
+
+.ui-rt-button-disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+}

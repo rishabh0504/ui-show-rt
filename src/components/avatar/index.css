@@ -1,0 +1,43 @@
+.ui-rt-avatar{
+    border-radius: 50%;
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.ui-rt-avatar-xs{
+    width: 30px;
+    height:30px;
+}
+.ui-rt-avatar-sm{
+    width: 40px;
+    height:40px;
+}
+.ui-rt-avatar-md{
+    width: 50px;
+    height:50px;
+}
+.ui-rt-avatar-lg{
+    width: 60px;
+    height:60px;
+}
+.ui-rt-avatar-initial-lg,.ui-rt-avatar-initial-md,.ui-rt-avatar-initial-sm,.ui-rt-avatar-initial-xs{
+    padding: 0px;
+    margin: auto;
+    text-transform: uppercase;
+    color: var(--dark-tex);
+    font-family: var(--ui-show-rt);
+}
+.ui-rt-avatar-initial-xs{
+    font-size: var(--xsmall-size);
+}
+.ui-rt-avatar-initial-sm{
+    font-size: var(--small-size)
+}
+.ui-rt-avatar-initial-md{
+    font-size: var(--medium-size);
+}
+.ui-rt-avatar-initial-lg{
+    font-size: var(--large-size);
+}

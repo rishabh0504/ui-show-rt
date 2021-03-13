@@ -1,0 +1,48 @@
+.d-flex{
+    display: flex;
+    margin: 5px 0px;
+}
+.d-block{
+    display: block !important;
+    margin: 5px 0px;
+}
+.ui-rt-radio{
+    margin: 2px 0px;
+    padding: 0px;
+    display: flex;
+    align-items: end;
+}
+.ui-rt-radio-xs{
+    width: var(--xsmall-size); 
+    height: var(--xsmall-size);
+}
+.ui-rt-radio-sm{
+    width: var(--small-size); 
+    height: var(--small-size);
+}
+.ui-rt-radio-md{
+    width: var(--medium-size); 
+    height: var(--medium-size);
+}
+.ui-rt-radio-lg{
+    width: var(--large-size); 
+    height: var(--large-size);
+}
+.ui-rt-radio-lable-lg,
+.ui-rt-radio-lable-md,
+.ui-rt-radio-lable-sm,
+.ui-rt-radio-lable-xs{
+    padding: 0px 8px;
+}
+.ui-rt-radio-lable-xs{
+    font-size: var(--xsmall-size);
+}
+.ui-rt-radio-lable-sm{
+    font-size: var(--small-size);
+}
+.ui-rt-radio-lable-md{
+    font-size: var(--medium-size);
+}
+.ui-rt-radio-lable-lg{
+    font-size: var(--large-size);
+}

@@ -1,0 +1,16 @@
+:root {
+  --info: #55B9E3;
+  --success: #00C9B8;
+  --danger : #FE5E54;
+  --warning:#FCD200;
+  --default : #E2E0E5;
+  --dark-text : #474747;
+  --light-text : #D7D7D7;
+  --normal : #FFFFFF;
+  --xsmall-size : 10px;
+  --small-size : 10px;
+  --medium-size : 12px;
+  --large-size : 14px;
+  --scroll-bar:#919191;
+  --ui-show-rt : 'Ubuntu', sans-serif;
+}
