@@ -53,7 +53,6 @@
     height: 14px;
     width: 14px;
     margin:0px 10px;
-    transform: rotate(90deg);
     transition: all 0.3s ease-in-out 0s;
 }
 .ui-rt-options{
